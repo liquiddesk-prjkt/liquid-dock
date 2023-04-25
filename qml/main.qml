@@ -53,7 +53,7 @@ Item {
         anchors.fill: parent
         radius: root.compositing && Settings.style === 0 ? windowRadius : 0
         color: FishUI.Theme.darkMode ? "#666666" : "#E6E6E6"
-        opacity: root.compositing ? FishUI.Theme.darkMode ? 0.5 : 0.5 : 0.9
+        opacity: root.compositing ? FishUI.Theme.darkMode ? 0.3 : 0.3 : 0.6
         border.width: 1 / FishUI.Units.devicePixelRatio
         border.pixelAligned: FishUI.Units.devicePixelRatio > 1 ? false : true
         border.color: borderColor
