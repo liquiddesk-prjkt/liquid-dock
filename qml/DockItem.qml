@@ -86,8 +86,8 @@ Item {
             id: iconColorize
             anchors.fill: icon
             source: icon
-            color: "#000000"
-            opacity: iconArea.pressed && !mouseArea.drag.active ? 0.4 : 0
+            color: "#FFFFFF"
+            opacity: iconArea.pressed && !mouseArea.drag.active ? 0.2 : 0
         }
     }
 
